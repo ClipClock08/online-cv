@@ -117,11 +117,28 @@ techs:
   title: Technical Skills
   info:
     - role: Golang, Gin, Python, Big Data, PHP, Wordpress, Yii2, Laravel, Magento.
-    - role: GCP, Azure, AWS, Kubernetes, Docker, RDBMS.
-    - role: Microservices, Git, Linux, Clean Code, Testing(Unit, Integration, E2E), SDLC, Code Review.
+    - role: GCP, Azure, AWS, Kubernetes, Docker, RDBMS, Redis, Apollo, GraphQL
+    - role: Microservices, Git, Linux, Clean Code, Testing(Unit, Integration, E2E), SDLC, Code Review, IoT
 
 experiences:
+  title:
   info:
+    - role: Key Developer
+      description: |
+        Managed Services global project. Support and Engineering.
+      time: 01.03.2024 - Till Now
+      company: EPAM
+      responsibilities: |
+        • Writing GraphQL resolvers (API).
+        
+        • Writing and maintain unit tests.
+        
+        • Code review and release management.
+        
+        • Develop the backend side of project.
+        
+        • Discuss and apply improvements for product.
+
     - role: Go Developer
       description: |
         Merchant Solutions is a strategic initiative focused on migrating the existing Midigator product, a comprehensive suite of tools designed for merchants to handle post-auth fraud management, dispute prevention, and dispute handling, from AWS to GCP's GKE platform, while simultaneously integrating and adopting industry-leading software engineering and cyber security standards.
