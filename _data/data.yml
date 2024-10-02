@@ -116,9 +116,9 @@ publications:
 techs:
   title: Technical Skills
   info:
-    - role: Golang, Gin, Python, Big Data, PHP, Wordpress, Yii2, Laravel, Magento.
-    - role: GCP, Azure, AWS, Kubernetes, Docker, RDBMS, Redis, Apollo, GraphQL
-    - role: Microservices, Git, Linux, Clean Code, Testing(Unit, Integration, E2E), SDLC, Code Review, IoT
+    - role: Golang, Gin, kotlin, Python(Big Data), PHP(Wordpress, Yii2, Laravel, Magento).
+    - role: Docker, RDBMS, Redis, GCP, Azure, AWS, k8s, Kafka, Apollo, GraphQL, protobuf, grpc, Grafana
+    - role: Git, Linux, Microservices, Clean Code, Testing(Unit, Integration, E2E), SDLC, Code Review, IoT
 
 experiences:
   title:
@@ -138,6 +138,9 @@ experiences:
         • Develop the backend side of project.
         
         • Discuss and apply improvements for product.
+        
+        • Solving SonarQube issues.
+         
 
     - role: Go Developer
       description: |
