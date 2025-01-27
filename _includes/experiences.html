@@ -27,7 +27,7 @@
         {% if experience.examples %}
         <div class="details">
             {% for example in experience.examples %}
-            <a href="{{ example.projects.url }}" target="_blank">{{ example.projects.name }}</a>
+            <a href="{{ example.projects.url }}" target="_blank"><strong>{{ example.projects.name }} </strong> |</a>
             {% endfor %}
         </div><!--//details-->
         {% endif %}

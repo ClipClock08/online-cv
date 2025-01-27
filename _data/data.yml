@@ -10,17 +10,17 @@ sidebar:
   # Profile information
   name: Oleksandr Lopatin
   tagline: Software Engineer
-  avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: clipclock08@gmail.com
-  phone: 066 537 4053
+  phone: +380 66 537 4053
   # timezone: America/Cancun Timezone
   # citizenship:
   # website: blog.webjeda.com #do not add http://
   linkedin: clipclock96
   # xing: alandoe
-  github: ClipClock08
+  github: clipclock08
   telegram: clipclock
   # gitlab:
   # bitbucket:
@@ -28,7 +28,7 @@ sidebar:
   # stack-overflow: # Number/Username, e.g. 123456/alandoe
   # codewars:
   # goodreads: # Number-Username, e.g. 123456-alandoe
-  # pdf: http://www.africau.edu/images/default/sample.pdf
+  pdf: https://clipclock08.github.io/online-cv/cv.pdf
 
   languages:
     title: Languages
@@ -42,53 +42,64 @@ sidebar:
   interests:
     title: Interests
     info:
+      - item: Learning new programming languages and frameworks
+        # link:
+      - item: Participating in hackathons and coding challenges
+        # link:
       - item: Volleyball
-        link:
-      - item: Self improvement
-        link:
 
 career-profile:
-  title: Career Profile
+  title: Summary
   summary: |
-    Dynamic and goal-oriented back-end developer with over five years of experience, specializing in Go language development with over a 4 years of production experience.
-    
-    Extensive knowledge of both SQL and NoSQL databases, including ACID. In addition, proficient in writing tests, such as unit and integration tests, and have used tools like Postman and Jest. While I possess basic knowledge of Angular(TypeScript), my expertise lies in microservices architecture applications. I also have some experience in the Python world, specifically in Big Data.
-    
-    My self-organization and fast learning abilities have helped me develop strong troubleshooting skills, which enable me to quickly identify and resolve issues. I have expertise in code reviewing, provisioning, and refactoring, as well as API/Rest development experience.
-    
-    Furthermore, hands-on experience in GCP/Azure cloud and CI/CD, Grafana, and other DevOps tools.
-    
-    Finally, I have previously worked as an experienced PHP back-end developer, which has given me a well-rounded skillset.
+    Highly skilled and motivated Golang developer with more then 6 years of experience in designing, developing, and deploying scalable backend systems and microservices. Proficient in modern software development practices, including RESTful APIs, cloud-native applications, and containerization. Passionate about writing clean, efficient, and maintainable code. Strong problem-solving skills and a collaborative team player.
 
 education:
   title: Education
   info:
-    - degree: Master's degree, Computer Engineering
-      university: National Aerospace University - "Kharkiv Aviation Institute"
-      time: 2023 - 2025
-    - degree: Bachelor, Software Development
+    - degree: Bachelor, Computer Science
       university: National Aerospace University - "Kharkiv Aviation Institute"
       time: 2016 - 2019
-      details: |
-        - Grade: 86
-        - Activities and societies: Student fraternity, volleyball, team programming events
-        - Proformer of the group, player of the national volleyball team
-    - degree: Middle (full) general education, Software development
+    - degree: Middle (full) general education, Computer Science
       university: Kharkiv Patent and Computer College
       time: 2012 - 2016
 
 
-# certifications:
-#     title: Awards
-#     list:
-#       - name: GCP
-#         start: 2024
-#         end: 2026
-#         organization: Google
-#         details: |
-#           A fully funded PhD studentship at UCL.
-#           Four year studentship and tuition fee
-#           waived at higher international fee rate (value ~£190K).
+techs:
+  title: Technical Skills
+  info:
+    - lang: Golang
+    - lang: Python
+    - lang: JavaScript
+    - lang: SQL
+    - lang: C#
+    - lang: PHP
+
+    - lib: Gin, Echo, Chi
+    - lib: Gorilla Mux
+    - lib: GORM or SQLx (database ORM/query builders)
+    - lib: sqlc, gqlgen, protobuf (codegen)
+
+    - db: PostgreSQL, MySQL, SQLite
+    - db: MongoDB
+    - db: ELK
+    - db: Redis, Amazon DynamoDB
+    - db: CockroachDB
+
+    - ops: Docker, Kubernetes
+    - ops: AWS (EC2, S3, Lambda, RDS), GCP or Azure
+    - ops: Terraform, Helm
+    - ops: CI/CD tools (GitHub Actions, GitLab CI, Jenkins)
+
+    - tool: Git, GitHub/GitLab
+    - tool: RESTful APIs, GraphQL
+    - tool: gRPC, Protocol Buffers
+    - tool: Message brokers (RabbitMQ, Kafka)
+    - tool: Testing frameworks (Go testing, Testify)
+
+    - other: Agile/Scrum methodologies
+    - other: Microservices architecture
+    - other: Unit testing, integration testing, and debugging
+    - other: Linux/Unix environments
 
 publications:
   title: Talks
@@ -98,27 +109,20 @@ publications:
       authors: Oleksandr Lopatin, Dmytro Yankovskyi
       conference: We are community
 
-    - title: Go Lang MeetUp. Go in Big Data sharing info (Epam only)
-      link: "https://wearecommunity.io/events/go-lang-community-lean-coffee-meeting-8/talks/51131"
-      authors: Oleksandr Lopatin, Vitaliy Yurchenko, Oleksii Kolyvaiko
-      conference: We are community
-
-    - title: Reliability. How to build fault tolerance application. Patterns/Tools/Best practices (Epam only)
-      link: "https://wearecommunity.io/events/https-wearecommunity-io-events-go-lang-community-lean-coffee-meeting-12/talks/53296"
-      authors: Oleksandr Lopatin, Yurii Shnitsar
-      conference: We are community
-
-    - title: Integration tests with docker/-compose (Epam only)
-      link: "https://wearecommunity.io/events/go-lang-community-lean-coffee-meeting-13-1/talks/59252"
-      authors: Oleksandr Lopatin
-      conference: We are community
-
-techs:
-  title: Technical Skills
-  info:
-    - role: Golang, Gin, kotlin, Python(Big Data), PHP(Wordpress, Yii2, Laravel, Magento).
-    - role: Docker, RDBMS, Redis, GCP, Azure, AWS, k8s, Kafka, Apollo, GraphQL, protobuf, grpc, Grafana
-    - role: Git, Linux, Microservices, Clean Code, Testing(Unit, Integration, E2E), SDLC, Code Review, IoT
+#    - title: Go Lang MeetUp. Go in Big Data sharing info (Epam only)
+#      link: "https://wearecommunity.io/events/go-lang-community-lean-coffee-meeting-8/talks/51131"
+#      authors: Oleksandr Lopatin, Vitaliy Yurchenko, Oleksii Kolyvaiko
+#      conference: We are community
+#
+#    - title: Reliability. How to build fault tolerance application. Patterns/Tools/Best practices (Epam only)
+#      link: "https://wearecommunity.io/events/https-wearecommunity-io-events-go-lang-community-lean-coffee-meeting-12/talks/53296"
+#      authors: Oleksandr Lopatin, Yurii Shnitsar
+#      conference: We are community
+#
+#    - title: Integration tests with docker/-compose (Epam only)
+#      link: "https://wearecommunity.io/events/go-lang-community-lean-coffee-meeting-13-1/talks/59252"
+#      authors: Oleksandr Lopatin
+#      conference: We are community
 
 experiences:
   title:
@@ -129,26 +133,24 @@ experiences:
       time: 01.03.2024 - Till Now
       company: EPAM
       responsibilities: |
-        • Writing GraphQL resolvers (API).
+        • Designed and implemented high-performance GraphQL APIs using Golang to enable efficient data querying and manipulation for analytics.
         
-        • Writing and maintain unit tests.
+        • Optimized GraphQL resolvers and database queries to ensure low latency and high throughput for data-intensive applications.
         
-        • Code review and release management.
+        • Implemented authentication and authorization mechanisms JWT to secure GraphQL endpoints and protect sensitive data, using claims.
         
-        • Develop the backend side of project.
+        • Wrote unit and integration tests to ensure code reliability and maintainability.
         
-        • Discuss and apply improvements for product.
-        
-        • Solving SonarQube issues.
-         
+        • Participated in agile development processes, including sprint planning, daily stand-ups, and retrospectives, to ensure efficient project execution and delivery.
 
     - role: Go Developer
+      project: Merchant Solution
       description: |
         Merchant Solutions is a strategic initiative focused on migrating the existing Midigator product, a comprehensive suite of tools designed for merchants to handle post-auth fraud management, dispute prevention, and dispute handling, from AWS to GCP's GKE platform, while simultaneously integrating and adopting industry-leading software engineering and cyber security standards.
       time: 06.03.2023 - 31.12.2023
       company: EPAM
       responsibilities: |
-        • Created services using Golang and covered with Unit tests.
+        • Developed core libraries and utilities in Go to standardize microservice development, facilitating easier integration, deployment, and maintenance.
         
         • Created and maintained technical documentation for the project to ensure that all technical details and processes were thoroughly documented for present and future reference.
         
@@ -168,11 +170,16 @@ experiences:
       time: 05.07.2022 - 06.03.2023
       company: EPAM
       responsibilities: |
-        • Created additional functionality for parsing terraform scripts files (Golang code)
+        • Developed RESTful APIs for parsing terraform scripts files on Go.
         
-        • Integrated external web services on Azure Functions between our app and client solutions
+        • Handling messages from ServiceBus and orchestrate executions in inner Service Now system.
         
-        • Created project documentation
+        • Integrated external web services on Azure Functions between our app and client solutions.
+        
+        • Provided actual project documentation.
+        
+        • Developed and executed test plans, test cases, and test scripts to ensure software quality and functionality.
+        
 
     - role: Go/Python Developer
       description: |
@@ -206,18 +213,31 @@ experiences:
             name: Galante
             url: https://galante.com.ua/
         - projects:
-            name: Lombard Pershyy
-            url: https://lombard1.com.ua/
+            name: WOG
+            url: https://wog.ua/
       time: 16.06.2020 - 21.01.2022
       company: Brander
       responsibilities: |
-        • Creating a project according to the design.
+        • Developed and customized Magento 1.9, 2.x e-commerce websites, including theme development, module creation, and performance optimization.
         
-        • Optimization of database queries.
+        • Integrated third-party APIs, payment gateways (e.g., PayPal, Stripe), and shipping solutions to enhance functionality.
         
-        • Communication with the customer.
+        • Optimized Magento stores for speed, scalability, and SEO, improving user experience and search engine rankings.
         
-        • Deployment of the site to the server using the Git Lab runner.
+        • Conducted website migrations, server configurations, and Magento version upgrades.
+        
+        • Conducted website migrations, server configurations, and Magento version upgrades.
+        
+        • Designed and developed robust web applications using Laravel and Symfony frameworks, following MVC architecture.
+        
+        • Implemented authentication and authorization mechanisms (e.g., JWT, OAuth2) for secure user access.
+        
+        • Optimized database queries and managed relational databases (MySQL, PostgreSQL) for high-performance applications.
+        
+        • Deployed applications on on-prem servers using GitLab runner server.
+        
+        • Collaborated with frontend developers, designers, and stakeholders to deliver scalable and user-friendly solutions.
+
     - role: Wordpress Developer
       description: |
         The company provides a full range of web development and SMM services. My projects were on WordPress CMS. Namely, the creation and support of blog sites and online stores. 
@@ -233,35 +253,54 @@ experiences:
             name: Hiitworks
             url: https://hiitworks.com/
         - projects:
-            name: Hiitworks
-            url: https://hub.kyivstar.ua/
+            name: Cronvest
+            url: https://cronvest.com/
       time: 16.03.2019 - 11.06.2020
       company: Art Lemon
       responsibilities: |
-        • Creating a project according to the design. 
+        • Designed, developed, and maintained WordPress websites, ensuring high performance, responsiveness, and scalability.
         
-        • Communication with the customer. 
+        • Customized WordPress themes and plugins to meet client requirements.
+        
+        • Integrated third-party APIs, payment gateways, and external services to extend website functionality.
 
-skills:
-  title: Skills &amp; Proficiency
-  toolset:
-    - name: Golang
-      level: 85%
-    - name: Cloud Spanner
-      level: 70%
-    - name: SQL
-      level: 70%
-    - name: NOSQL
-      level: 60%
-    - name: Message Brokers
-      level: 60%
-    - name: PHP
-      level: 70%
-    - name: Python
-      level: 40%
-    - name: Ruby on Rails
-      level: 25%
-    - name: Javascript
-      level: 50%
-    - name: HTML5 & CSS
-      level: 50%
+        • Optimized websites for speed, SEO, and mobile responsiveness, improving user experience and search engine rankings.
+        
+        • Provided training and documentation to clients for easy content management and updates.
+
+# certifications:
+#     title: Awards
+#     list:
+#       - name: GCP
+#         start: 2024
+#         end: 2026
+#         organization: Google
+#         details: |
+#           A fully funded PhD studentship at UCL.
+#           Four year studentship and tuition fee
+#           waived at higher international fee rate (value ~£190K).
+
+
+# skills:
+#  title: Skills &amp; Proficiency
+#  toolset:
+#    - name: Golang
+#      level: 85%
+#    - name: Cloud Spanner
+#      level: 70%
+#    - name: SQL
+#      level: 70%
+#    - name: NOSQL
+#      level: 60%
+#    - name: Message Brokers
+#      level: 60%
+#    - name: PHP
+#      level: 70%
+#    - name: Python
+#      level: 40%
+#    - name: Ruby on Rails
+#      level: 25%
+#    - name: Javascript
+#      level: 50%
+#    - name: HTML5 & CSS
+#      level: 50%
